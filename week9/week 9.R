@@ -58,7 +58,7 @@ figt<- ggplot(total,aes(x=x, y=y,size=income, label=round))+
    annotate("text", x = 2.5, y = 0, label = "2010", colour = "grey", size=6)+
    annotate("text", x = 12.5, y = 0, label = "2020", colour = "grey", size=6)
 
-
+#!!! the legend is added in canva bc I couldn't figure out how to do it here :) sorry to disappoint
 
 figt
 ggsave("t.jpg",
